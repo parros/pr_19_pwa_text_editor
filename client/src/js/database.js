@@ -20,7 +20,7 @@ export const putDb = async (content) => {
 
   const store = await readWriteDb.objectStore(objectStoreNames)
 
-  const result = await store.put(textData)
+  const result = await store.put(content)
   return result
 }
 
