@@ -1,6 +1,7 @@
 {
   "name": "JATE",
   "scripts": {
+    "install": "cd client && npm i && cd ../server && npm i",
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "start": "webpack --watch"
